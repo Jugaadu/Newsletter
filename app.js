@@ -38,7 +38,7 @@ app.post("/", function (req, res) {
         url: "https://us4.api.mailchimp.com/3.0/lists/b2feebb207",
         method: "POST",
         headers: {
-            "Authorization": "DMM d8c557dd5ba29640bca944a3c60daa84-us4",
+            "Authorization": "DMM myapikey",
             "content-type": 'application/json'
         },
         body: jsonData,
@@ -68,5 +68,4 @@ app.listen(process.env.PORT || 3000, function (req, res) {
 
 })
 
-// d8c557dd5ba29640bca944a3c60daa84-us4
-// b2feebb207
+
